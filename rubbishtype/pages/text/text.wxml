@@ -1,0 +1,9 @@
+<view class="bigbox">
+  <view class="textbox" style="width: {{num*100}}%;left:{{-page*100}}%">
+    <view class="tab" style="width: {{100/num}}%;"  wx:for="{{arr}}" wx:key="arrkey" wx:for-item="arritem" wx:for-index="arrindex">
+      <view class="textpages">{{arrindex+1}}/6</view>
+      <view class="textnames">{{arritem.textname}}</view>
+      <button class="fournames" bindtap="btn" wx:for="{{arritem.fourtype}}" data-i="{{fouritem}}" data-number="{{arrindex}}" wx:key="fourkey" wx:for-item="fouritem" x:for-index="fourindex">{{fouritem}}</button>
+    </view>
+  </view>
+</view>

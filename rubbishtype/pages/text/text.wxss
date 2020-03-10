@@ -1,0 +1,34 @@
+.bigbox{
+  width: 100%;
+  position: relative;
+}
+.textbox{
+  position: absolute;
+  top:0;
+  transition: .5s;
+}
+.tab{
+  float: left;
+}
+.textpages{
+  margin-left: 16px;
+  line-height: 2.5;
+  font-size: 12px;
+}
+.textnames{
+  font-size: 26px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fournames{
+  width: 160px;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  line-height: 40px;
+  text-align: center;
+  margin:12px auto;
+  font-size: 14px;
+}

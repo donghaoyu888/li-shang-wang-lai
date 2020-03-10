@@ -1,0 +1,37 @@
+/* pages/text/text.wxss */
+.textbox{
+  width: 93%;
+  padding: 10px;
+  /* background: #f1f1f3; */
+}
+page{
+  height:100%;
+  background-color: #f1f1f3; 
+  
+}
+.specialbox{
+  width: 94%;
+  height: 40px;
+  padding: 10px;
+  background: white;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.images{
+  width: 40px;
+  height: 40px;
+  background: wheat;
+  float: left;
+}
+.specialname{
+  line-height: 40px;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0 14px;
+}
+.jiantou{
+  line-height: 40px;
+  float: right;
+  font-size: 12px;
+}

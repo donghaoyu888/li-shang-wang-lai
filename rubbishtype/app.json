@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/text/text",
+    "pages/search/search",
+    "pages/special/special"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4ACA6D",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#4ACA6D",
+    "borderStyle": "black",
+    "list": [
+      {
+        
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/image/zhinan.png",
+        "selectedIconPath": "pages/image/zhinan.png",
+        "text": "指南"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "pages/image/sousuo1.png",
+        "selectedIconPath": "pages/image/sousuo1.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/text/text",
+        "iconPath": "pages/image/ceshi.png",
+        "selectedIconPath": "pages/image/ceshi.png",
+        "text": "测试"
+      },
+      {
+        "pagePath": "pages/special/special",
+        "iconPath": "pages/image/zhuanti.png",
+        "selectedIconPath": "pages/image/zhuanti.png",
+        "text": "专题"
+      }
+    ]
+  }
+}

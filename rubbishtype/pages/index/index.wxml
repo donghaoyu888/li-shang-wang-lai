@@ -1,0 +1,20 @@
+<!--index.wxml-->
+ <view class='search'>
+    <view class='searchItem'>
+        <image src='../image/sousuo1.png' />
+        <input placeholder='请输入订单号' bindblur="ser" value='{{sers}}' bindinput="servalue"></input>
+    </view>
+</view>
+<view class="content">
+  <view class="rubish">
+    <view class="{{currentitem == rubishindexs?'active':'rubishtype'}}" wx:for="{{rubishitems}}" wx:for-item="rubishitems" wx:for-index="rubishindexs" bindtap="rubishchange" wx:key="rubishkey" data-qh="{{rubishindexs}}">{{rubishitems.name}}</view>
+  </view>
+  <view class="rubishdetail" wx:for="{{rubishitems}}" wx:key="rubishitems" wx:if="{{index == currentitem ?'type':''}}">
+    <view class="detailsbox">
+      <image src="" class="rubishimg"></image>
+      <view class="detailmsg">{{item.name}}是{{item.explain}}</view>
+      <text class="requeats">投放要求：</text>
+      <view class="requeatsdetail">{{item.require}}</view>
+    </view>
+  </view>
+</view>

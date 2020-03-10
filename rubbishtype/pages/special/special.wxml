@@ -1,0 +1,9 @@
+<page>
+  <view class="textbox">
+    <view class="specialbox" wx:for="{{specialnames}}" wx:for-index="specialindex">
+      <image src="{{arr[specialindex]}}" data-index="specialindex" class="images"></image>
+      <view class="specialname">{{item.keyword}}</view>
+      <view class="jiantou">></view>
+    </view>
+  </view>
+</page>

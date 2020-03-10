@@ -1,0 +1,80 @@
+view.search {
+    display: flex;
+    flex-direction: row;
+    height: 98rpx;
+    /* background: #efeff4; */
+    align-items: center;
+}
+
+view.searchItem {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    background: #efeff4;
+    flex-direction: row;
+    border-radius: 40rpx;
+    margin-right: 20rpx;
+    margin-left: 20rpx;
+}
+view.searchItem image {
+    height: 42rpx;
+    width: 42rpx;
+    align-self: center;
+    margin-left: 10rpx;
+    margin-right: 20rpx;
+}
+view.searchItem input {
+    flex: 1;
+    font-size: 30rpx;
+}
+.content{
+  width: 100%;
+}
+.rubish{
+  width: 25%;
+  height: 465px;
+  margin-right: 4px;
+  font-size: 14px;
+  float: left;
+  background: rgb(236, 235, 236);
+}
+.rubishtype{
+  line-height: 2.5;
+  text-align: center;
+  font-size: 14px;
+}
+.active{
+  background: black;
+   line-height: 2.5;
+   color: white;
+  text-align: center;
+}
+.rubishdetail{
+  float: right;
+  width: 73%;
+  height: 300px;
+}
+.detailsbox{
+  width: 86%;
+  padding:3% 5%;
+  background: grey;
+  border-radius: 10px;
+}
+.rubishimg{
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: pink;
+  margin:10px auto;
+}
+.detailmsg,.requeatsdetail{
+  text-indent: 2em;
+  line-height: 2;
+  font-size: 12px;
+}
+.requeats{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 2;
+}

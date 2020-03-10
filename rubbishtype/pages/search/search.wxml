@@ -1,0 +1,9 @@
+ <view class='search'>
+    <view class='searchItem'>
+        <image src='../image/sousuo1.png' />
+        <input placeholder='请输入订单号' bindblur="ser" value='{{sers}}' bindinput="servalue"></input>
+    </view>
+</view>
+<view wx:for="{{searchitems}}" wx:key="searchitems">
+  <view class="serresult">{{item.gname}} [{{item.gtype}}]</view>
+</view> 
